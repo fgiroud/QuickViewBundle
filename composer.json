@@ -1,0 +1,29 @@
+{
+    "name": "fgir/quick-view-bundle",
+    "description": "Quick view bundle",
+    "keywords": ["utils"],
+    "homepage": "https://github.com/fgiroud/QuickViewBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Florian Giroud",
+            "email": "florian.giroud@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fgir\\QuickViewBundle\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fgir\\QuickViewBundle\\Test\\": "tests"
+        }
+    }
+}

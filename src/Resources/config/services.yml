@@ -1,0 +1,4 @@
+services:
+    fgir_quickview.adapter.odm:
+       class: Fgir\QuickViewBundle\Adapter\DoctrineOdmAdapter
+       arguments: ["@doctrine.odm.mongodb.document_manager"]
